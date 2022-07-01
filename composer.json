@@ -1,0 +1,31 @@
+{
+    "name": "leeuwenkasteel/helpers",
+    "description": "Helpers",
+    "type": "package",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Sanne van Leeuwen",
+            "email": "sanne@leeuwenkasteel.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Leeuwenkasteel\\Helpers\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leeuwenkasteel\\Helpers\\HelpersServiceProvider"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
